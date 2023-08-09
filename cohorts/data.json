@@ -1,0 +1,13 @@
+{
+    "datasets": {
+        "DATASET_1" : {
+            "ingest_date" : "2022-10-08T10:06:00Z",
+            "owner" : "eve"
+        },
+        "DATASET_2" : {
+            "ingest_date" : "2023-08-01T10:06:00Z",
+            "owner" : "jose"
+        }
+    }
+}
+
