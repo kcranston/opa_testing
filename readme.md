@@ -1,4 +1,11 @@
-Testing for development of new opa policies
+# OPA policy testing
+
+## Contents
+
+* `cohorts/`: data describing cohorts (datasets)
+* `roles/`: data describing roles and access for roles
+* `tests/`: tests for rbac and timed polices
+* `*.rego`: polices
 
 ## CLI 
 
@@ -20,13 +27,10 @@ where
 
 ## Running tests
 
-`opa test rbac`
-
-runs all of the tests found in the `rbac` dir. Use `-v` for verbose mode. 
-
 `opa test .`
 
-runs all of the tests in the current dir
+runs all of the tests in the current dir (searces recursively). Use `-v` for verbose mode. 
+
 
 ## Dev notes
 
