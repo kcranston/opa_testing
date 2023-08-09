@@ -1,0 +1,35 @@
+{
+    "user_roles": {
+        "alice" : [
+            "admin"
+        ],
+        "eve": [
+            "data_custodian"
+        ],
+        "bob" : [
+            "network_member"
+        ],
+        "jose" : [
+            "local_team"
+        ]
+    },
+    "role_grants": {
+        "local_team" : [
+            {
+                "method" : ["GET"]
+            }
+        ],
+        "network_member": [
+            {   
+                "method": ["GET"],
+                "months_after_deposit": 6
+            }
+        ],
+         "data_custodian": [
+            {
+                "method": ["POST", "GET", "DELETE"]
+            }
+        ]
+    }
+}
+
